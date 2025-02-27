@@ -4,4 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   components: true,
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/LogoSitePiotr.svg' }
+      ]
+    }
+  }
 })
