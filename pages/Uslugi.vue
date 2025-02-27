@@ -17,7 +17,8 @@
         </div>
         <MachineUslugi1 />
         <MachineUslugi2 />
-        <MachineUslugi3 />  
+        <MachineUslugi3 />
+        <MachineUslugi5image />  
 
     </section>
 
@@ -73,6 +74,8 @@
 import MachineUslugi1 from '~/components/Uslugi/MachineUslugi1.vue';
 import MachineUslugi2 from '~/components/Uslugi/MachineUslugi2.vue';
 import MachineUslugi3 from '~/components/Uslugi/MachineUslugi3.vue';
+import MachineUslugi5image from '~/components/Uslugi/MachineUslugi5image.vue';
+
 
 
 export default {
@@ -81,6 +84,7 @@ export default {
     MachineUslugi1, 
     MachineUslugi2,
     MachineUslugi3,
+    MachineUslugi5image
   },
 };
 </script>
