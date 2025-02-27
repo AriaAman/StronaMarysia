@@ -86,6 +86,7 @@
   line-height: 38px;
   color: #fff;
   margin: 0;
+  text-transform: uppercase;
 }
 </style>
 

@@ -12,7 +12,7 @@
                 <p>
                     Zapraszamy do zapoznania się z naszym cennikiem leczenia,
                     który obejmuje szczegółowe informacje na temat kosztów poszczególnych zabiegów
-                    stomatologicznych.<br> Nasze ceny są transparentne i odzwierciedlają wysoką jakość
+                    stomatologicznych. Nasze ceny są transparentne i odzwierciedlają wysoką jakość
                     świadczonych usług oraz nowoczesne technologie, które wykorzystujemy.
                     Dzięki temu możesz mieć pewność, że inwestujesz w zdrowie i piękny uśmiech.
                 </p>
@@ -138,6 +138,9 @@
 </template>
 
 <style scoped>
+p {
+    margin: 0;
+}
 .container-prix {
     display: flex;
     width: 100%;
@@ -186,6 +189,7 @@
     line-height: 38px;
     color: #fff;
     margin: 0;
+    text-transform: uppercase;
 }
 
 /* Sous‑titre + ligne */
@@ -248,8 +252,6 @@
 
 .pricing-row-price {
     display: flex;
-    /* width: 428px; */
-    /* height: calc(100% + 100px); */
     position: relative;
     gap: 40px;
     flex-direction: column;
