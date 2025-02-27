@@ -17,7 +17,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine9.jpg" alt="SMART DENTIN GRINDER" />
+                <img src="/static/Technologie/Machine9.jpg" alt="SMART DENTIN GRINDER" />
             </div>
         </div>
     </section>

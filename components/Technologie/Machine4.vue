@@ -18,7 +18,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine4.jpg" alt="Tomograf CS 9600" />
+                <img src="/static/Technologie/Machine4.jpg" alt="FIZJODYSPENSER IMPLANTMED W&H" />
             </div>
         </div>
     </section>

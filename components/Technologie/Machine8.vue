@@ -21,7 +21,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine8.jpg" alt="LASER BIOLASE EPIC X" />
+                <img src="/static/Technologie/Machine8.jpg" alt="SPEKTROFOTOMETR SPECTRO SHADE" />
             </div>
         </div>
     </section>

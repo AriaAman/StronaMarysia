@@ -18,7 +18,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine10.jpg" alt="RADIOWIZJOGRAFIA RVG Kodak 6100" />
+                <img src="/static/Technologie/Machine10.jpg" alt="RADIOWIZJOGRAFIA RVG Kodak 6100" />
             </div>
         </div>
     </section>

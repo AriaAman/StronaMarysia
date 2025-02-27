@@ -20,7 +20,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine2.jpg" alt="SKANER WEWNĄTRZUSTNY CS 3600" />
+                <img src="/static/Technologie/Machine2.jpg" alt="SKANER WEWNĄTRZUSTNY CS 3600" />
             </div>
         </div>
     </section>

@@ -15,7 +15,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine6.jpg" alt="Tomograf CS 9600" />
+                <img src="/static/Technologie/Machine6.jpg" alt="MORITA DENTAPORT" />
             </div>
         </div>
     </section>

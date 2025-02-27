@@ -22,7 +22,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine7.jpg" alt="SKANER WEWNĄTRZUSTNY CS 3600" />
+                <img src="/static/Technologie/Machine7.jpg" alt="ZNIECZULENIE DENTAPEN" />
             </div>
         </div>
     </section>

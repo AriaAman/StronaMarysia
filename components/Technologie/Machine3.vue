@@ -19,7 +19,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine3.jpg" alt="LASER BIOLASE EPIC X" />
+                <img src="/static/Technologie/Machine3.jpg" alt="LASER BIOLASE EPIC X" />
             </div>
 
            

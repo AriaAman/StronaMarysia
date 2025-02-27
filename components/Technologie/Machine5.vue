@@ -19,7 +19,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine5.jpg" alt="Tomograf CS 9600" />
+                <img src="/static/Technologie/Machine5.jpg" alt="MIKROSKOP ZUMAX" />
             </div>
         </div>
     </section>

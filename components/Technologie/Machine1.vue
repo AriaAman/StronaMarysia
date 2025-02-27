@@ -29,7 +29,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Machine1.jpg" alt="Tomograf CS 9600" />
+                <img src="/static/Technologie/Machine1.jpg" alt="Tomograf CS 9600" />
             </div>
         </div>
     </section>
