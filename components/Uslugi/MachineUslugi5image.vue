@@ -2,7 +2,7 @@
     <section class="prosthetic-section">
         <!-- Gros titre -->
         <h2 class="section-title">
-            PRACE PROTETYCZNE WYKONYWANE W NASZYM GABINECIE:
+            PRACE PROTETYCZNE WYKONYWANE <br> W NASZYM GABINECIE:
         </h2>
         <hr class="divider" />
 
@@ -19,6 +19,7 @@
                     odbudowa naturalnej korony zęba przy użyciu kompozytu jest
                     niemożliwa.
                 </p>
+                <br>
                 <p>
                     Aby założyć koronę, konieczne jest zeszlifowanie zęba,
                     tworząc filar, na którym mocuje się koronę. Jeśli filar jest
@@ -43,6 +44,7 @@
                     kompozytowego. Przy minimalnej preparacji szkliwa możliwe jest
                     osiągnięcie spektakularnego efektu.
                 </p>
+                <br>
                 <p>Poprzez zastosowanie licówek możemy:</p>
                 <ul>
                     <li>wydłużyć i powiększyć zęby</li>
@@ -71,6 +73,7 @@
                     brakiem zębowym. Podobnie jak w przypadku koron zęby
                     sąsiadujące wymagają opracowania filarów pod mosty.
                 </p>
+                <br>
                 <p>
                     Zgodnie z najnowszymi standardami w przypadkach gdy
                     obok luki znajdują się zęby zdrowe zaleca się uzupełnienie
@@ -97,6 +100,7 @@
                     anatomicznego zęba (guzków, bruzd i punktów stykowych
                     między zębami).
                 </p>
+                <br>
                 <p>
                     Kompozytowe lub porcelanowe, wykonywane na podstawie
                     wycisków w laboratorium protetycznym. Zabieg wymaga
@@ -122,6 +126,7 @@
                     lub całkowitego bezzębia. Przywraca utracone funkcje
                     jamy ustnej.
                 </p>
+                <br>
                 <p>Wyróżniamy:</p>
                 <ul>
                     <li>
@@ -150,7 +155,7 @@ export default {
 .prosthetic-section {
     background-color: #15253F;
     color: #fff;
-    padding: 60px 80px;
+    padding: 0px 0px 0px 306px;
     font-family: 'Figtree', sans-serif;
 }
 
@@ -158,14 +163,11 @@ export default {
 .section-title {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
-    /* Ajuste selon maquette */
-    line-height: 52px;
+    line-height: 56px;
     color: #BC9667;
-    /* Doré */
-    margin: 0 0 20px;
+    margin: 0 0 40px;
     font-weight: 400;
     text-transform: uppercase;
-    /* Si besoin */
 }
 
 .divider {
@@ -177,42 +179,38 @@ export default {
 /* Chaque bloc : image à gauche, titre au centre, texte à droite */
 .block {
     display: grid;
-    grid-template-columns: 300px 200px 1fr;
-    /* Ajuste les largeurs */
-    gap: 20px;
-    align-items: start;
+    grid-template-columns: 300px 203px 430px;
+    gap: 182px;
+    align-items: center;
     margin-bottom: 40px;
+    justify-content: space-between;
 }
 
 /* Image */
 .block-image {
     width: 427px;
     height: 427px;
-    height: auto;
-    border-radius: 6px;
-    /* Si besoin */
+    border-radius: 3px;
 }
 
 /* Titre (ex: KORONA) */
 .block-title {
     font-family: 'Aboreto', cursive;
-    font-size: 28px;
-    /* Ajuste */
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 56px;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     margin: 0;
-    /* Pour supprimer tout espace par défaut */
 }
 
 /* Texte descriptif */
 .block-text {
-    font-family: 'Gotu', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
+    font-family: 'Figtree';
+    font-size: 16px;
+    line-height: 24px;
     color: #fff;
     display: flex;
     flex-direction: column;

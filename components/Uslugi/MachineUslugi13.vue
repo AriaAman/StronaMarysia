@@ -1,13 +1,12 @@
 <template>
-    <section class="machineUslugi1">
-        <hr class="section-divider" />
+    <section class="machineUslugi13">
         <div class="content-block">
             <div class="text-col">
-                <h2 class="sub-title">Implantologia dentystyczna</h2>
+                <h2 class="sub-title">Chirurgia stomatologiczna</h2>
                 <p class="paragraph">
-                    <b>Implantologia dentystyczna</b> to zaawansowana dziedzina stomatologii, zajmująca się odbudową braków w
-                    uzębieniu poprzez <b>wszczepianie tytanowych implantów</b>, które zastępują korzenie utraconych zębów.
-                    Implanty są biokompatybilne, co oznacza, że <b>integrują się z kością,</b> tworząc stabilną podstawę dla
+                    Implantologia dentystyczna to zaawansowana dziedzina stomatologii, zajmująca się odbudową braków w
+                    uzębieniu poprzez wszczepianie tytanowych implantów, które zastępują korzenie utraconych zębów.
+                    Implanty są biokompatybilne, co oznacza, że integrują się z kością, tworząc stabilną podstawę dla
                     sztucznych zębów, a także zapobiegają zanikowi kości, co często występuje po utracie zęba.
                 </p>
                 <p class="paragraph">
@@ -24,7 +23,7 @@
             </div>
 
             <div class="image-col">
-                <img src="/static/Uslugi/MachineUslugi1.jpg" alt="Implantologia dentystyczna" />
+                <img src="/static/Uslugi/MachineUslugi13.jpg" alt="Chirurgia stomatologiczna" />
             </div>
         </div>
     </section>
@@ -37,17 +36,16 @@
     }
 }
 
-.section-divider {
-    padding-bottom: 96px;
-    border: none;
-    border-top: 1px solid #fff;
+.machineUslugi13 {
+    padding-top: 192px;
 }
 
 .content-block {
     display: flex;
     gap: 335px;
-    padding: 0px 50px;
+    padding: 0px 50px 112px 50px;
     align-items: center;
+
 }
 
 .text-col {
@@ -86,8 +84,8 @@
 }
 
 .image-col img {
-    width: 580px;
-    height: 579px;
+    width: 733px;
+    height: 670px;
     border-radius: 3px;
 }
 </style>
@@ -95,7 +93,7 @@
 <script>
 
 export default {
-    name: 'Machine1',
+    name: 'Machine3',
     components: {
 
     },

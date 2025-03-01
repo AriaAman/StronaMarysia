@@ -18,9 +18,23 @@
         <MachineUslugi1 />
         <MachineUslugi2 />
         <MachineUslugi3 />
-        <MachineUslugi5image />  
+        <MachineUslugi5image />
+        
+        
 
     </section>
+    <div class="uslugi-section-white">   
+        <MachineUslugi4 />
+        <MachineUslugi5 />
+        <MachineUslugi6 />  
+    </div>
+
+    <div class="uslugi-section">
+        <MachineUslugi12 />
+        <MachineUslugi13 />
+        <UlsugiChirurgie />
+
+    </div>
 
 </template>
 
@@ -29,9 +43,16 @@
     background-color: #15253F;
     color: #fff;
     padding: 60px 60px;
-    /* gap: 96px; */
     min-height: 100vh;
     font-family: 'Figtree', sans-serif;
+}
+
+.uslugi-section-white {
+    background-color: #fff;
+    color: #15253F;
+    padding: 60px 60px;
+    min-height: 100vh;
+    font-family: 'Figtree';
 }
 
 /* En‑tête : "KOSZTY LECZENIA" et paragraphe explicatif */
@@ -74,7 +95,13 @@
 import MachineUslugi1 from '~/components/Uslugi/MachineUslugi1.vue';
 import MachineUslugi2 from '~/components/Uslugi/MachineUslugi2.vue';
 import MachineUslugi3 from '~/components/Uslugi/MachineUslugi3.vue';
+import MachineUslugi4 from '~/components/Uslugi/MachineUslugi4.vue';
+import MachineUslugi5 from '~/components/Uslugi/MachineUslugi5.vue';
 import MachineUslugi5image from '~/components/Uslugi/MachineUslugi5image.vue';
+import MachineUslugi6 from '~/components/Uslugi/MachineUslugi6.vue';
+import MachineUslugi12 from '~/components/Uslugi/MachineUslugi12.vue';
+import MachineUslugi13 from '~/components/Uslugi/MachineUslugi13.vue';
+import UlsugiChirurgie from '~/components/Uslugi/UlsugiChirurgie.vue';
 
 
 
@@ -84,7 +111,13 @@ export default {
     MachineUslugi1, 
     MachineUslugi2,
     MachineUslugi3,
-    MachineUslugi5image
+    MachineUslugi5image,
+    MachineUslugi4,
+    MachineUslugi5,
+    MachineUslugi6,
+    MachineUslugi12,
+    MachineUslugi13,
+    UlsugiChirurgie
   },
 };
 </script>

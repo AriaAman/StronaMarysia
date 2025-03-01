@@ -43,7 +43,7 @@
 .content-block {
     display: flex;
     gap: 335px;
-    padding: 0px 50px;
+    padding: 0px 50px 112px 50px;
     align-items: center;
 
 }
@@ -56,7 +56,7 @@
 
 .paragraph {
     font-family: 'Figtree';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     color: #fff;
